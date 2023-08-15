@@ -1,0 +1,18 @@
+{
+  "editor.tabSize": 2,
+  "[vue]": {
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "files.eol": "\n",
+  "html.format.wrapLineLength": 0,
+  "tailwindCSS.emmetCompletions": true,
+  "css.lint.unknownAtRules": "ignore",
+  "[css]": {
+    "editor.formatOnSave": true,
+    "diffEditor.codeLens": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
+}
