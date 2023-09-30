@@ -42,38 +42,23 @@ const select = computed({
 <style>
 :root {
   --vs-disabled-bg: #eeeeee;
-  --vs-dropdown-option--active-bg: #f3f4f6;
-  --vs-dropdown-option--active-color: #374151;
+  --vs-dropdown-option--active-bg: #E6F6EC;
+  --vs-dropdown-option--active-color:#16A75C;
   --vs-search-input-placeholder-color: #9ca3af;
   --vs-font-size: 0.875rem;
 }
 
-.filter {
-  width: 260px
-}
 
-.filter .vs__dropdown-toggle {
-  min-height: 40px;
-  @apply h-full bg-gray-50 border border-gray-500 rounded-lg;
-}
-
-.filter .vs__selected {
-  @apply inline-block truncate pt-1 w-[190px]
-}
-
-.filter.vs--open .vs__search {
-  @apply w-auto;
-}
 
 /* End Filter */
 
-.input-select .vs__dropdown-toggle {
-  @apply bg-gray-50 border border-gray-500 rounded-lg h-10;
+.input-ranked .vs__dropdown-toggle {
+  border: none;
+  font-weight: bold; 
+  font-size: 14px;
+  @apply bg-white
 }
 
-.input-select.vs--disabled .vs__dropdown-toggle {
-  @apply bg-gray-200;
-}
 
 /* Pagination */
 .pagination {
@@ -135,8 +120,7 @@ const select = computed({
 }
 
 .vs--open .vs__dropdown-toggle {
-  border-bottom-color: unset;
-  @apply rounded-bl-lg rounded-br-lg;
+  border: none; 
 }
 
 .vs__actions {
